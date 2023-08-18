@@ -1,0 +1,78 @@
+
+body{
+    background-image: linear-gradient(#0d3b64c0,#0d3b648e,#0d3b646e);
+}
+@font-face {
+    font-family:ibm;
+    src: url('Safira.otf\'OpenType');
+}
+@font-face{
+    font-family:remblack;
+    src: url('REM-Black.ttf') format ('truetype');
+}
+
+@font-face{
+    font-family:rem;
+    src: url('REM-Light.ttf') format ('truetype');
+}
+
+h1{
+    font-size: 40px;
+    color: #001e42;
+}
+h2{
+    color: #000000a6;
+    padding-left: 30%;
+    padding-top: 28px;
+    font-size: 25px;   
+    font-family:'rem', Arial, sans-serif;
+    text-align: center;
+    max-width: 850px;
+}
+h3{
+    padding: 20px;
+}
+p{
+    font-size: 30px;
+    color: #001e42;
+    display: inline-block;
+    vertical-align: top;
+    width: 0%;
+    margin-left: 13%;
+    padding-left: 10.6%;
+}
+h4{
+    color: #000000;
+    padding-left: 30%;
+    padding-top: 32px;
+    font-size: 30px;  
+    font-family:'ibm', Arial, sans-serif;
+    text-align: center;
+    max-width: 831px;
+}
+h5{
+    color: #ffffff88;
+    text-align: center;
+    font-size: 17px;
+    display: block;
+}
+
+#logo{
+    position:center;
+    border-radius: 10px;
+    width: 13%;
+    height:13%;
+}
+.titulo-principal{
+    position:center;
+    text-align: center;
+    transform: translate(-30px -10px);
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+}
+footer{
+    background-image: linear-gradient(#011733,#001e42,#02326d) ;
+    padding-bottom:10px;
+    padding-top: 3px;
+}
